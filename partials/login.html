@@ -1,0 +1,55 @@
+<div class="container-fluid">
+    <div class="content-wrapper"  style="margin-top:5em">
+        <div class="row">
+            <div class="col-xs-6 col-xs-offset-3">
+                <h1 class="text-center">Login</h1>
+            </div>
+        </div>
+
+        <form name="ctrl.loginForm" ng-submit="ctrl.submitLogin(ctrl.loginForm)">
+            <div class="row">
+                <div class="col-xs-6 col-xs-offset-3">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="username"
+                            placeholder="Username"
+                            name="username"
+                            ng-model="ctrl.formData.username"
+                            required>
+                        <p ng-messages="ctrl.loginForm.username.$error" ng-messages-include="partials/error-messages.html"></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input
+                            type="password"
+                            class="form-control"
+                            id="password"
+                            placeholder="Password"
+                            name="password"
+                            ng-model="ctrl.formData.password"
+                            required
+                            validate-password>
+                        <p ng-messages="ctrl.loginForm.password.$error" ng-messages-include="partials/error-messages.html"></p>
+                    </div>
+                    <div>
+                        <button
+                            type="submit"
+                            class="btn btn-lg btn-success btn-block"
+                            ng-disabled="!ctrl.loginForm.$valid">
+                            LOGIN
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:5em">
+                <div class="col-xs-12">
+                    <h1>Ausgabe</h1>
+                    <pre>{{ ctrl.loginForm | json }}</pre>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

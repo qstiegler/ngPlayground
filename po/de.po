@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: partials/translate.html:8
+msgid "Aveniet et enim."
+msgstr "Übersetzung 2 DE"
+
+#: partials/translate.html:7
+msgid ""
+"Doloribus quas laudantium omnis quos aliquid quo, sapiente a ipsam ex "
+"deserunt ad minima temporibus labore expedita corrupti atque eveniet et enim."
+msgstr "Übersetzung 1 DE"
+
+#: partials/translate.html:10
+msgid "Ein Boot"
+msgid_plural "{{ ctrl.pluralCount }} Boote"
+msgstr[0] "Ein Boot"
+msgstr[1] "{{ ctrl.pluralCount }} Boote"
+
+#: partials/translate.html:9
+msgid "Fuck next test"
+msgstr "Übersetzung 3 DE"
+
+#: partials/translate.html:6
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+msgstr "Übersetzung 5 DE"
+
+#: partials/translate.html:5
+msgid "Lorem ipsum {{ ctrl.translateString }} dolor sit amet"
+msgstr "Übersetzung {{ ctrl.translateString }} 4 DE"
+
+#~ msgid "Wieder dazu gekommen"
+#~ msgstr "Übersetzung 6 DE"
+
+#~ msgid "Lorem ipsum dolor sit amet"
+#~ msgstr "Übersetzung 4 DE"
+
+#~ msgid "Eveniet et enim."
+#~ msgstr "Übersetzung 2 DE"

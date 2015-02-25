@@ -1,0 +1,12 @@
+{
+  "name": "ng-playground",
+  "version": "0.0.1",
+  "author": "Quirin Stiegler <mail@quirin-stiegler.de>",
+  "dependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-angular-gettext": "^2.0.1"
+  },
+  "devDependencies": {
+    "grunt-notify": "^0.4.1"
+  }
+}
